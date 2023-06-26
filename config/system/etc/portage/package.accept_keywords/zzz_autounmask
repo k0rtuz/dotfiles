@@ -1,0 +1,8 @@
+# required by app-misc/nnn (argument)
+=app-misc/nnn-4.8 ~amd64
+# required by www-client/torbrowser (argument)
+=www-client/torbrowser-102.10.0_p12005 ~amd64
+# required by x11-misc/xcalib (argument)
+=x11-misc/xcalib-0.10 ~amd64
+# required by dev-util/rustup (argument)
+=dev-util/rustup-1.25.2 ~amd64

@@ -1,0 +1,1 @@
+dev-lang/rust system-bootstrap rust-src rustfmt rust-analyzer lto doc clippy system-llvm
