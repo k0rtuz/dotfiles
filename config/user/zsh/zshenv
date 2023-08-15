@@ -1,0 +1,46 @@
+if [[ ! -d "$HOME/.cache/wget" ]]; then
+  mkdir -p $HOME/.cache/wget
+fi
+
+if [[ ! -d "$HOME/.local/state/zsh" ]]; then
+  mkdir -p $HOME/.local/state/zsh
+fi
+export HISTFILE="$HOME/.local/state/zsh/history"
+
+if [[ ! -d "$HOME/.local/bin" ]]; then
+  mkdir -p $HOME/.local/bin
+fi
+export PATH="$HOME/.local/bin:$PATH"
+
+if [[ -d "$HOME/.config/nvim/lua/custom" ]]; then
+  NVCHAD_CUSTOM="$HOME/.config/nvim/lua/custom"
+fi
+
+# Aliases
+if [[ -x $(which wget) ]]; then
+	alias wget="wget --hsts-file=$HOME/.cache/wget/hosts"
+fi
+
+if [[ -x $(which nvim) ]]; then
+    if [[ -x $(which vim) ]]; then
+		alias ovim=vim
+	fi
+	alias vim=nvim
+fi
+
+if [[ -x $(which bat) ]]; then
+    if [[ -x $(which cat) ]]; then
+		alias ocat=cat
+	fi
+	alias cat=bat
+fi
+
+if [[ -x $(which lsd) ]]; then
+    if [[ -x $(which ls) ]]; then
+		alias ols=ls
+	fi
+	alias ls="lsd --group-directories-first"
+  alias la="lsd --group-directories-first -A"
+  alias ll="lsd --group-directories-first -l"
+  alias lla="lsd --group-directories-first -lA"
+fi
