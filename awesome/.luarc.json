@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+  "diagnostics.globals": ["awesome", "client", "root", "screen"],
+  "hint.enable": true,
+  "runtime.path": [
+    "?.lua",
+    "?/init.lua",
+    "/usr/share/awesome/lib/?.lua",
+    "/usr/share/awesome/lib/?/init.lua"
+  ],
+  "runtime.version": "LuaJIT",
+  "workspace.library": [
+    "/usr/share/awesome/lib/?.lua",
+    "/usr/share/awesome/lib/?/init.lua"
+  ]
+}
