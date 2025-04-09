@@ -1,0 +1,6 @@
+$pdf_mode = 4; ## sets LuaLatex to default engine.
+$pdf_previewer = 'zathura';
+$dvi_mode = 0;
+$postscript_mode = 0;
+$aux_dir = './aux';
+$out_dir = '.';
