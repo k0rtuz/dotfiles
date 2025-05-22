@@ -16,6 +16,7 @@ return {
         lua = { "stylua" },
         python = { "ruff_fix", "ruff_format", "ruff_organize_imports" },
         rust = { "rustfmt" },
+        sh = { "shfmt" },
         tex = { "tex-fmt" },
       },
       format_on_save = {

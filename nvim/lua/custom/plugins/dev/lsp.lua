@@ -152,6 +152,15 @@ return {
           },
         })
       end,
+      ["bacon_ls"] = function()
+        lspconfig["bacon_ls"].setup({
+          init_options = {
+            updateOnSave = true,
+            updateOnSaveWaitMillis = 1000,
+            updateOnChange = false,
+          },
+        })
+      end,
       ["rust_analyzer"] = function()
         lspconfig["rust_analyzer"].setup({
           cmd = { "rust-analyzer" },
@@ -160,6 +169,8 @@ return {
           root_dir = lspconfig.util.root_pattern("Cargo.toml"),
           settings = {
             ["rust-analyzer"] = {
+              checkOnSave = { enable = false },
+              diagnostics = { enable = false },
               cargo = {
                 allFeatures = true,
               },

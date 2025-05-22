@@ -73,6 +73,9 @@ return {
     local keymap = vim.keymap
 
     keymap.set("n", "<F5>", "<cmd>DapContinue<CR>", { desc = "Continue" })
+    keymap.set("n", "<F7>", "<cmd>DapStepInto<CR>", { desc = "Step into" })
+    keymap.set("n", "<F8>", "<cmd>DapStepOver<CR>", { desc = "Step over" })
+    keymap.set("n", "<F9>", "<cmd>DapTerminate<CR>", { desc = "Terminate" })
     keymap.set("n", "<leader>db", "<cmd>DapToggleBreakpoint<CR>", { desc = "Toggle breakpoint on current line" })
   end,
 }

@@ -1,0 +1,78 @@
+rock_manifest = {
+   doc = {
+      ["lazy.nvim.txt"] = "a870ff5b388e136c925f8c060f39f997"
+   },
+   ["lazy.nvim-11.16.2-1.rockspec"] = "c4e6dc3933f9bb02ec1c32f71c5b7149",
+   lua = {
+      lazy = {
+         ["async.lua"] = "006090e11a54fba91d0da76d0ce9beb8",
+         ["build.lua"] = "38618b1bde9f4cd0c701cc09ef9ab613",
+         community = {
+            ["_generated.lua"] = "01458fd7e8c1a28f6d6c40f0acf7451e",
+            ["init.lua"] = "5951272c282838395da7f674d32fbc04",
+            ["specs.lua"] = "929a430ac72b70661fd797fa133cc773"
+         },
+         core = {
+            ["cache.lua"] = "36b6ccf390a17bda100702832e0850c9",
+            ["config.lua"] = "866cd03f60ff7efc82422173547c0d7c",
+            ["fragments.lua"] = "b039e889d5317198bc186c456dce660a",
+            handler = {
+               ["cmd.lua"] = "42883e0c49190d0851bb40bbeb9ff7dc",
+               ["event.lua"] = "6703ef1672711ee0ab8776de09dbd203",
+               ["ft.lua"] = "b238e3ef689603753a33e56465c66bbf",
+               ["init.lua"] = "1751060a992d28b2a33504ee40d770a3",
+               ["keys.lua"] = "d399aa628df1835a88daf53ccab5b04a"
+            },
+            ["loader.lua"] = "b0181731d9e643264b9a8c146d5bdb5a",
+            ["meta.lua"] = "7095252c7c3eea753d66461eafa896de",
+            ["plugin.lua"] = "5873f8634abfe01079f393abf1ab5b62",
+            ["util.lua"] = "eb67c558cfa25dfe46b940042361a105"
+         },
+         ["docs.lua"] = "7b61a5bf3830c5fdc322398a1cd3884e",
+         ["example.lua"] = "5004ae8bc5a44c77729aa0ec13548b12",
+         ["health.lua"] = "af56f27d5c0b247414fd5937f5f96f39",
+         ["help.lua"] = "e51529ad2098609dcaca525079fd0036",
+         ["init.lua"] = "4818cbd750a9f94dc7985eae9c7d0ff1",
+         manage = {
+            ["checker.lua"] = "6d55cc8d2b28b38fa141f1d6775b0c1a",
+            ["git.lua"] = "74d4906460a6afa584167620479fb6b0",
+            ["init.lua"] = "d2967b28951caa74e93a9cc873aa3186",
+            ["lock.lua"] = "4029a445506f32be4df6a9775d464b55",
+            ["process.lua"] = "27e7edadcf7f11985d39c5c7ad5f527b",
+            ["reloader.lua"] = "ced3fc2d73923ac06f3e3c2af57de4b1",
+            ["runner.lua"] = "58cdb2027939e29f914b82352c25aa1e",
+            ["semver.lua"] = "4a0e990277e0ccbda3f603ea9d530f50",
+            task = {
+               ["fs.lua"] = "838f6abe16c7b7467a269fe99a1eb1eb",
+               ["git.lua"] = "ef75d220691fecd58cf0ba68be9af449",
+               ["init.lua"] = "3d4ed27a706839bd9df130651b5f92b4",
+               ["plugin.lua"] = "7db60de428ebd71f3895eef6f2321111"
+            }
+         },
+         ["minit.lua"] = "ae5951363e298161025ef208196e4f45",
+         pkg = {
+            ["init.lua"] = "dd8b8719ad5994b7f3e9babefc3e1ff4",
+            ["lazy.lua"] = "627788ad674c7639c004f32f4dd6cca7",
+            ["packspec.lua"] = "617f41bc68cf5d11d0e4787f7a4e2832",
+            ["rockspec.lua"] = "e7e3f07150988aed045352330ea44504"
+         },
+         ["state.lua"] = "cd29cb49e743f9c9ada3dc000a5e96d1",
+         ["stats.lua"] = "7bbb60fa60b1c75df3b03639037e51e8",
+         ["status.lua"] = "f151ca5b0386dba6d6fbc39c0466d600",
+         ["terminal.lua"] = "f4805f15ddee9ce2c9ccedb2a6cae50f",
+         ["types.lua"] = "b31dd94f049caf90570f60698d3e4780",
+         ["util.lua"] = "291a6b2028eb4484faf98e21e6c6558f",
+         view = {
+            ["colors.lua"] = "4485912c6d228a32a142b98edf624011",
+            ["commands.lua"] = "906f1c3ca7122fd28045fcc8f86385c6",
+            ["config.lua"] = "47d2b04a4ad710989de1677089ef1cd9",
+            ["diff.lua"] = "fd6c02dd3798c090b84a0d91caa5509e",
+            ["float.lua"] = "3f0722a729aa293dac701f55e37e7b30",
+            ["init.lua"] = "27059ee78a55706fb58f4d19208be007",
+            ["render.lua"] = "345e32315bc2243af3b71f79195a05be",
+            ["sections.lua"] = "64ecb4913310093d7cd63c497c9dcbae",
+            ["text.lua"] = "37b57bc16ca44a7f5fcc1777beca017e"
+         }
+      }
+   }
+}

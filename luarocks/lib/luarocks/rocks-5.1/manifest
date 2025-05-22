@@ -1,0 +1,249 @@
+commands = {}
+dependencies = {
+   ["lazy.nvim"] = {
+      ["11.16.2-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   }
+}
+modules = {
+   ["lazy.async"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.build"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.community._generated"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.community.init"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.community.specs"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.core.cache"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.core.config"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.core.fragments"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.core.handler.cmd"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.core.handler.event"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.core.handler.ft"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.core.handler.init"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.core.handler.keys"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.core.loader"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.core.meta"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.core.plugin"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.core.util"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.docs"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.example"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.health"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.help"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.init"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.manage.checker"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.manage.git"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.manage.init"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.manage.lock"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.manage.process"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.manage.reloader"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.manage.runner"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.manage.semver"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.manage.task.fs"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.manage.task.git"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.manage.task.init"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.manage.task.plugin"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.minit"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.pkg.init"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.pkg.lazy"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.pkg.packspec"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.pkg.rockspec"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.state"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.stats"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.status"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.terminal"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.types"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.util"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.view.colors"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.view.commands"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.view.config"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.view.diff"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.view.float"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.view.init"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.view.render"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.view.sections"] = {
+      "lazy.nvim/11.16.2-1"
+   },
+   ["lazy.view.text"] = {
+      "lazy.nvim/11.16.2-1"
+   }
+}
+repository = {
+   ["lazy.nvim"] = {
+      ["11.16.2-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               ["lazy.async"] = "lazy/async.lua",
+               ["lazy.build"] = "lazy/build.lua",
+               ["lazy.community._generated"] = "lazy/community/_generated.lua",
+               ["lazy.community.init"] = "lazy/community/init.lua",
+               ["lazy.community.specs"] = "lazy/community/specs.lua",
+               ["lazy.core.cache"] = "lazy/core/cache.lua",
+               ["lazy.core.config"] = "lazy/core/config.lua",
+               ["lazy.core.fragments"] = "lazy/core/fragments.lua",
+               ["lazy.core.handler.cmd"] = "lazy/core/handler/cmd.lua",
+               ["lazy.core.handler.event"] = "lazy/core/handler/event.lua",
+               ["lazy.core.handler.ft"] = "lazy/core/handler/ft.lua",
+               ["lazy.core.handler.init"] = "lazy/core/handler/init.lua",
+               ["lazy.core.handler.keys"] = "lazy/core/handler/keys.lua",
+               ["lazy.core.loader"] = "lazy/core/loader.lua",
+               ["lazy.core.meta"] = "lazy/core/meta.lua",
+               ["lazy.core.plugin"] = "lazy/core/plugin.lua",
+               ["lazy.core.util"] = "lazy/core/util.lua",
+               ["lazy.docs"] = "lazy/docs.lua",
+               ["lazy.example"] = "lazy/example.lua",
+               ["lazy.health"] = "lazy/health.lua",
+               ["lazy.help"] = "lazy/help.lua",
+               ["lazy.init"] = "lazy/init.lua",
+               ["lazy.manage.checker"] = "lazy/manage/checker.lua",
+               ["lazy.manage.git"] = "lazy/manage/git.lua",
+               ["lazy.manage.init"] = "lazy/manage/init.lua",
+               ["lazy.manage.lock"] = "lazy/manage/lock.lua",
+               ["lazy.manage.process"] = "lazy/manage/process.lua",
+               ["lazy.manage.reloader"] = "lazy/manage/reloader.lua",
+               ["lazy.manage.runner"] = "lazy/manage/runner.lua",
+               ["lazy.manage.semver"] = "lazy/manage/semver.lua",
+               ["lazy.manage.task.fs"] = "lazy/manage/task/fs.lua",
+               ["lazy.manage.task.git"] = "lazy/manage/task/git.lua",
+               ["lazy.manage.task.init"] = "lazy/manage/task/init.lua",
+               ["lazy.manage.task.plugin"] = "lazy/manage/task/plugin.lua",
+               ["lazy.minit"] = "lazy/minit.lua",
+               ["lazy.pkg.init"] = "lazy/pkg/init.lua",
+               ["lazy.pkg.lazy"] = "lazy/pkg/lazy.lua",
+               ["lazy.pkg.packspec"] = "lazy/pkg/packspec.lua",
+               ["lazy.pkg.rockspec"] = "lazy/pkg/rockspec.lua",
+               ["lazy.state"] = "lazy/state.lua",
+               ["lazy.stats"] = "lazy/stats.lua",
+               ["lazy.status"] = "lazy/status.lua",
+               ["lazy.terminal"] = "lazy/terminal.lua",
+               ["lazy.types"] = "lazy/types.lua",
+               ["lazy.util"] = "lazy/util.lua",
+               ["lazy.view.colors"] = "lazy/view/colors.lua",
+               ["lazy.view.commands"] = "lazy/view/commands.lua",
+               ["lazy.view.config"] = "lazy/view/config.lua",
+               ["lazy.view.diff"] = "lazy/view/diff.lua",
+               ["lazy.view.float"] = "lazy/view/float.lua",
+               ["lazy.view.init"] = "lazy/view/init.lua",
+               ["lazy.view.render"] = "lazy/view/render.lua",
+               ["lazy.view.sections"] = "lazy/view/sections.lua",
+               ["lazy.view.text"] = "lazy/view/text.lua"
+            }
+         }
+      }
+   }
+}
